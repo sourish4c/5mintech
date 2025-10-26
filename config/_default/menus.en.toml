@@ -1,0 +1,110 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[main]]
+  name = "Posts"
+  pageRef = "posts"
+  weight = 2
+
+[[main]]
+  identifier = "pages"
+  name = "Pages"
+  url = "/pages/"
+  weight = 3
+
+[[main]]
+  identifier = "about"
+  name = "About"
+  url = "/pages/about/"
+  parent = "pages"
+  weight = 1
+
+[[main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/pages/contact/"
+  parent = "pages"
+  weight = 2
+
+[[main]]
+  identifier = "terms"
+  name = "Terms & Conditions"
+  url = "/pages/terms/"
+  parent = "pages"
+  weight = 3
+
+#[[main]]
+#  name = "example sub-menu 1"
+#  parent = "Parent"
+#  pageRef = "posts"
+#  weight = 20
+
+#[[main]]
+#  name = "example sub-menu 2"
+#  parent = "Parent"
+#  pageRef = "posts"
+#  weight = 20
+
+#[[subnavigation]]
+#  name = "An interesting topic"
+#  pageRef = "tags/interesting-topic"
+#  weight = 10
+
+#[[subnavigation]]
+#  name = "My Awesome Category"
+#  pre = "github"
+#  pageRef = "categories/awesome"
+#  weight = 20
+
+#[[main]]
+#  name = "Categories"
+#  pageRef = "categories"
+#  weight = 20
+
+#[[main]]
+#  name = "Tags"
+#  pageRef = "tags"
+#  weight = 30
+
+#[[subnavigation]]
+#  name = "An interesting topic"
+#  pageRef = "tags/interesting-topic"
+#  weight = 10
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+[[footer]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[footer]]
+  name = "Terms & Conditions"
+  pageRef = "/pages/terms-and-conditions"
+  weight = 20
+
+[[footer]]
+  name = "Privacy Policy"
+  pageRef = "pages/privacy-policy"
+  weight = 30
+
+[[footer]]
+  name = "Disclaimer"
+  pageRef = "pages/disclaimer"
+  weight = 40

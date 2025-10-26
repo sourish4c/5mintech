@@ -1,0 +1,36 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "5 Minutes Tech >> Learn In Just 5 Minutes"
+
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  #logo = "img/blowfish_logo_transparent.png"
+  logo = "images/logo-bg.png"
+  # secondaryLogo = "img/logo11.png"
+  description = "Learn In Just Five Minutes (5min.tech)"
+  copyright = "© { year } 5 Minutes Tech. All rights reserved."
+
+[params.author]
+  name = "Sourish Bhattacharya"
+  email = "hello@5min.tech"
+  image = "images/me.png"
+  imageQuality = 100
+  headline = "| Developer | Cloud Engineer | Blogger | Tech Enthusiast |"
+  bio = "👋 I'm a Developer, Cloud Engineer, Blogger, Tech Enthusiast"
+  links = [
+    { youtube = "https://youtube.com/@5-mintech" },
+    { github = "https://github.com/sourish4c" },
+  #  { linkedin = "https://linkedin.com/in/sourish4c" },
+    { x-twitter = "https://twitter.com/5mintech" },
+  #  { facebook = "https://facebook.com/username" },
+    { instagram = "https://instagram.com/5mintech" },
+    { email = "mailto:hello@5min.tech" },
+  #  { link = "https://link-to-some-website.com/" },
+  #  { ko-fi = "https://ko-fi.com/username" }
+  ]

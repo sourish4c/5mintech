@@ -1,0 +1,9 @@
+name = "5mintech"
+compatibility_date = "2025-10-12"
+
+[build]
+command = "./build.sh"
+
+[assets]
+directory = "./public"
+not_found_page = "404-page"
