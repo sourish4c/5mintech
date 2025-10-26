@@ -19,9 +19,9 @@ main() {
     echo "Node.js: $(node --version)"
 
     # Clone themes repository
-    # echo "Cloning Blowfish..."
-    # git submodule update --init --recursive
-    # git config core.quotepath false
+    echo "Cloning Blowfish..."
+    git submodule update --init --recursive
+    git config core.quotepath false
 
     # Building the website
     echo "Building the Site..."
