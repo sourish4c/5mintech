@@ -10,7 +10,7 @@ main() {
     echo "Installing Hugo v${HUGO_VERSION}..."
     curl -LJO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_darwin-universal.tar.gz"
     tar -xf "hugo_extended_${HUGO_VERSION}_darwin-universal.tar.gz"
-    sudo cp hugo /usr/local/bin/
+    cp hugo /usr/local/bin/
     rm LICENSE README.md hugo "hugo_extended_${HUGO_VERSION}_darwin-universal.tar.gz"
 
     # Verify installed versions
