@@ -18,6 +18,7 @@ replyByEmail = false
 ## Main Sections cards
 mainSections = ["posts"]
 # robots = ""
+disableImageZoom = true
 
 disableImageOptimization = false
 disableImageOptimizationMD = false

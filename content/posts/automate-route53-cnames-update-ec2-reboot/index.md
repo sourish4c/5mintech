@@ -17,7 +17,7 @@ tags:
 Learn how to automatically update your EC2 instance’s dynamic public DNS as a Route 53 CNAME record on every reboot.
 <!--more-->
 
-#### Video Overview
+#### TL;DR - Video Overview
 {{< youtube "AEc4fI_vhL0" >}}
 
 ### Introduction
@@ -25,7 +25,7 @@ Managing dynamic IP addresses for AWS EC2 instances can be a challenge, especial
 
 This guide is perfect for system administrators, DevOps engineers, and developers looking to streamline their AWS infrastructure management.
 
-#### Audio Overview
+#### TL;DR - Audio Overview
 {{<audio src="audio/automate-route53-cnames-update-ec2-reboot.mp3" caption="Listen to this post instead of reading" >}}
 
 ---
