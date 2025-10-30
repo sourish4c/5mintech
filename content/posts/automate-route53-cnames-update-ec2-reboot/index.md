@@ -178,7 +178,7 @@ After setting up the script, cron job, and IAM permissions, you can test the set
 - Reboot your EC2 instance.
 - Check the log file: >> After the instance comes back online, check /var/log/update-route53-cname.log for any errors or success messages.
 - Verify Route 53: >> Go to the AWS Route 53 console and check your hosted zone to confirm that the CNAME record for yourdomain.com (or your chosen domain) now points to the correct public DNS of your EC2 instance.
-- Test the domain: >> Try accessing your service via pritunl.convergehub.com to ensure it resolves correctly.
+- Test the domain: >> Try accessing your service via sub.yourdomain.com to ensure it resolves correctly.
 
 
 #### 7. Conclusion
