@@ -1,7 +1,15 @@
 /public/
 /resources/
+/drafts/*
+/workspace/
+/.opencode/
 
 .DS_Store
 .DS_Store?
 .hugo_build.lock
-.opencode/*
+
+*/venv/*
+.env
+Makefile
+.env.example
+MAKEFILE_README.md
