@@ -3,7 +3,7 @@ title: "Monitor Docker Containers with InfluxDB, Telegraf & Grafana"
 description: "Monitor every Docker container with InfluxDB, Telegraf, and Grafana. Capture per-container CPU, memory, network, and block I/O metrics with Flux queries."
 slug: "docker-monitoring-influxdb-telegraf-grafana"
 date: 2026-07-30T23:15:17+05:30
-draft: true
+draft: false
 author: ["Sourish Bhattacharya"]
 categories:
   - DevOps
