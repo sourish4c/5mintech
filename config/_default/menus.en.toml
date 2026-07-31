@@ -37,8 +37,7 @@
   identifier = "contact"
   name = "Contact"
   url = "/pages/contact/"
-  parent = "pages"
-  weight = 2
+  weight = 4
 
 [[main]]
   identifier = "terms"
