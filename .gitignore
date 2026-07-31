@@ -11,5 +11,5 @@
 */venv/*
 .env
 Makefile
-README.md
 .env.example
+MAKEFILE_README.md
