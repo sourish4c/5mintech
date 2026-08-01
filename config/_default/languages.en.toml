@@ -4,7 +4,6 @@ languageName = "English"
 weight = 1
 title = "5 Minutes Tech >> Learn In Just 5 Minutes"
 
-
 [params]
   displayName = "EN"
   isoCode = "en"
@@ -21,7 +20,7 @@ title = "5 Minutes Tech >> Learn In Just 5 Minutes"
   email = "blog@sourish4c.com"
   image = "images/me.png"
   imageQuality = 100
-  headline = "| Developer | Cloud Engineer | Blogger | Tech Enthusiast |"
+  headline = "<< Cloud Engineer . Developer . Blogger . Tech Enthusiast >>"
   bio = "👋 I'm a Developer, Cloud Engineer, Blogger, Tech Enthusiast"
   links = [
     { youtube = "https://youtube.com/@5-mintech" },
@@ -31,6 +30,6 @@ title = "5 Minutes Tech >> Learn In Just 5 Minutes"
   #  { facebook = "https://facebook.com/username" },
     { instagram = "https://instagram.com/sourish4c" },
     { email = "mailto:blog@sourish4c.com" },
-  #  { link = "https://link-to-some-website.com/" },
+    { link = "https://me.sourish4c.com/" },
   #  { ko-fi = "https://ko-fi.com/username" }
   ]
