@@ -15,7 +15,7 @@ Every post is designed to be read in **5 minutes or less**. No filler, no "let m
 - **Python** — short scripts and automation patterns
 - **Linux, Bash, and Home Lab** — for the self-hosters and tinkerers
 
-The latest tutorials are always on the [homepage](https://5min.tech). The full archive is at [/posts/](https://5min.tech/posts/).
+The latest tutorials are always on the [homepage](https://blog.sourish4c.com). The full archive is at [/posts/](https://blog.sourish4c.com/posts/).
 
 ---
 
@@ -119,9 +119,9 @@ Find me at:
 - GitHub: [sourish4c](https://github.com/sourish4c)
 - LinkedIn: [Sourish Bhattacharya](https://www.linkedin.com/in/sourish-barri)
 - Email: [blog@sourish4c.com](mailto:blog@sourish4c.com)
-- Contact form: [5min.tech/pages/contact/](https://5min.tech/pages/contact/)
+- Contact form: [5min.tech/pages/contact/](https://blog.sourish4c.com/pages/contact/)
 
-Full bio on [the about page](https://5min.tech/pages/about/).
+Full bio on [the about page](https://blog.sourish4c.com/pages/about/).
 
 ---
 
