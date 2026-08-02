@@ -30,7 +30,7 @@ Last quarter a single misbehaving container dragged a host's swap to 100% in the
 
 This guide walks through the exact stack I run in production: Telegraf as a sidecar on each Docker host, InfluxDB v2 as the time-series store, and Grafana on top with Flux queries for CPU, memory, network, and block I/O. The whole thing ships as a single `docker-compose.yml` plus a reusable dashboard.
 
-{{<audio src="monitor-docker-performance-with-tig.mp3" heading="TL;DR - Audio Overview" caption="Listen to this post instead of reading" >}}
+{{<audio src="monitor-docker-performance-with-tig.mp3" heading="🎧 TL;DR - Audio Overview" caption="Listen to this post instead of reading" >}}
 
 ### Prerequisites
 

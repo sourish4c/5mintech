@@ -23,14 +23,14 @@ thumbnail: "/images/posts/scale-to-zero-k3s-wake-service/featured.png"
 Here's how I built a tiny Flask wake service that scales idle k3s deployments down to zero replicas and brings them back on demand with a single click from my Homepage dashboard, freeing about 1.4 GB of RAM in the process.
 <!--more-->
 
-#### TL;DR - Video Overview
+#### Video Overview
 {{< youtube "dsU3LI5jgyE" >}}
 
 ### Introduction
 
 I noticed my k3s cluster sat at 1.4 GB of free RAM most of the time, even when nobody was using any of the eight light apps I had deployed. Running eight light apps in a home lab is a real RAM tax, and HPA-style autoscaling is the wrong tool when you don't have CPU pressure, you have *boredom* pressure. So I built a small scale-to-zero system: a wake-on-demand Flask service fronts an idle cron that scales everything to zero after no traffic in the metrics window, and Homepage widgets do the waking. Apps cold-start in about two seconds, the cluster idles around 128 MB, and the UX still feels like "click and go." This post walks through the architecture, the wake service, the scale-down cron, and the Homepage wiring.
 
-{{<audio src="Scale_Kubernetes_clusters_to_zero.mp3" heading="TL;DR - Audio Overview" caption="Listen to this post instead of reading (5 min)" >}}
+{{<audio src="Scale_Kubernetes_clusters_to_zero.mp3" heading="🎧 TL;DR - Audio Overview" caption="Listen to this post instead of reading (5 min)" >}}
 
 {{< alert "tip" >}}
 **Tested with:** k3s v1.30.x, Traefik v3.7.x (bundled), Homepage v1.x, Python 3.12, Flask 3.0. Multi-node k3s works with caveats — see the multi-node callout in step 4.
