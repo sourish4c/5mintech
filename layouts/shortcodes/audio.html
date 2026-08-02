@@ -1,6 +1,47 @@
-<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
-    <audio controls preload="{{ .Get "preload" | default "metadata" }}">
-      {{ with .Get "src" }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
+{{/*
+  Audio shortcode. Renders a styled audio player that matches the site's
+  primary color scheme (Blowfish / Tailwind).
+
+  Usage:
+    {{<audio src="audio.mp3" caption="Listen to this post instead of reading" >}}
+
+  The src is resolved in this order:
+    1. Page resource (file in the post's page bundle, e.g. content/posts/<slug>/foo.mp3)
+    2. relURL fallback (file in static/, e.g. static/audio/foo.mp3 → /audio/foo.mp3)
+
+  Optional `type` parameter overrides the source's MIME type (defaults to audio/mpeg).
+  Optional `heading` parameter renders a heading above the card; if omitted, no
+  heading is rendered (use when the heading lives in the surrounding prose).
+*/}}
+{{ $src := .Get "src" }}
+{{ $type := .Get "type" | default "audio/mpeg" }}
+{{ $heading := .Get "heading" | default "" }}
+{{ $resolved := "" }}
+{{ with $src }}
+  {{ $res := $.Page.Resources.Get . }}
+  {{ if $res }}
+    {{ $resolved = $res.RelPermalink }}
+  {{ else }}
+    {{ $resolved = . | relURL }}
+  {{ end }}
+{{ end }}
+<div class="not-prose my-6">
+  {{ with $heading }}<h4 class="text-base font-semibold mb-2 mt-0">{{ . }}</h4>{{ end }}
+  <figure class="rounded-lg border-l-4 border-primary-500 bg-neutral-100 dark:bg-neutral-800 px-5 py-3 shadow-sm">
+    <div class="flex items-center gap-2 mb-1.5 text-sm font-semibold text-primary-700 dark:text-primary-400">
+      <span aria-hidden="true">🎧</span>
+      <span>Audio overview</span>
+    </div>
+    <audio
+      controls
+      preload="metadata"
+      class="w-full"
+      style="height: 2.25rem; border-radius: 9999px; box-shadow: inset 0 0 0 1px rgba(0,0,0,.08);"
+    >
+      <source src="{{ $resolved }}" type="{{ $type }}">
     </audio>
-    {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+    {{ with .Get "caption" }}
+      <figcaption class="mt-1.5 text-sm text-neutral-600 dark:text-neutral-400">{{ . }}</figcaption>
+    {{ end }}
   </figure>
+</div>

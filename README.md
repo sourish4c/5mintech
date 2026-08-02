@@ -2,7 +2,7 @@
 
 > Practical, no-fluff tech tutorials you can finish during a coffee break.
 
-[5min.tech](https://5min.tech) is a blog for cloud engineers, DevOps professionals, and architects who want copy-pasteable, working examples — not 2,000-word essays that bury the answer.
+[5mintech](https://blog.sourish4c.com) is a blog for cloud engineers, DevOps professionals, and architects who want copy-pasteable, working examples — not 2,000-word essays that bury the answer.
 
 Every post is designed to be read in **5 minutes or less**. No filler, no "let me tell you about my journey", just the steps.
 

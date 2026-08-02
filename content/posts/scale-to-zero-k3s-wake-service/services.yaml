@@ -1,0 +1,20 @@
+- K3s:
+    - App1:
+        icon: app1.png
+        href: http://<YOUR_K3S_SERVER_IP>:30080/wake/app1
+        widget:
+          type: customapi
+          url: http://<YOUR_K3S_SERVER_IP>:30080/status/app1
+          mappings:
+            - field: status
+              format: text
+
+    - App2:
+        icon: app2.png
+        href: http://<YOUR_K3S_SERVER_IP>:30080/wake/app2
+        widget:
+          type: customapi
+          url: http://<YOUR_K3S_SERVER_IP>:30080/status/app2
+          mappings:
+            - field: status
+              format: text

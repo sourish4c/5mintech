@@ -25,10 +25,8 @@ Managing dynamic IP addresses for AWS EC2 instances can be a challenge, especial
 
 This guide is perfect for system administrators, DevOps engineers, and developers looking to streamline their AWS infrastructure management.
 
-#### TL;DR - Audio Overview
-{{<audio src="audio/automate-route53-cnames-update-ec2-reboot.mp3" caption="Listen to this post instead of reading" >}}
+{{<audio src="audio/automate-route53-cnames-update-ec2-reboot.mp3" heading="TL;DR - Audio Overview" caption="Listen to this post instead of reading" >}}
 
----
 ### Prerequisites
 
 Before you begin, ensure you have the following in place:
