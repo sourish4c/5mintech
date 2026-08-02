@@ -22,13 +22,15 @@ thumbnail: "/images/posts/docker-monitoring-influxdb-telegraf-grafana/featured.p
 Per-container CPU, memory, network, and block I/O history for every container on every host, with a single Grafana dashboard on top.
 <!--more-->
 
----
+{{< figure src="infographic.png" alt="Three-tier monitoring architecture: Telegraf sidecars scraping the Docker socket, InfluxDB v2 storing time-series data, and Grafana visualizing it via Flux queries." caption="The TIG blueprint: Telegraf runs as a sidecar on each Docker host, scraping per-container CPU, memory, network, and block I/O stats from the Docker socket every 10 seconds (top tier); InfluxDB v2 stores the time-series in isolated buckets, one per host, with a 30-day retention policy (middle tier); Grafana queries it with Flux and renders a 4-row dashboard — status totals, resource trends, throughput spikes, and detailed per-container tables (bottom tier)." >}}
 
 ### Introduction
 
 Last quarter a single misbehaving container dragged a host's swap to 100% in the middle of the night. By the time I logged in, the `docker stats` view had already cycled past the culprit. I had no per-container history, no Out of Memory (OOM) record, and no way to prove which service was responsible. That was the day I set up InfluxDB, Telegraf, and Grafana as a permanent record for every container on every host.
 
 This guide walks through the exact stack I run in production: Telegraf as a sidecar on each Docker host, InfluxDB v2 as the time-series store, and Grafana on top with Flux queries for CPU, memory, network, and block I/O. The whole thing ships as a single `docker-compose.yml` plus a reusable dashboard.
+
+{{<audio src="monitor-docker-performance-with-tig.mp3" heading="TL;DR - Audio Overview" caption="Listen to this post instead of reading" >}}
 
 ### Prerequisites
 
