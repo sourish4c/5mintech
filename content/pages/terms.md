@@ -1,17 +1,17 @@
 ---
 title: "Terms and Conditions"
-description: "Terms of Use for Five Minutes Tech (5min.tech)"
+description: "Terms of Use for Five Minutes Tech"
 date: 2025-01-01
 draft: false
 ---
 
-The rules of the road for using Five Minutes Tech (5min.tech). Short, plain-English, and written to be read.
+The rules of the road for using Five Minutes Tech. Short, plain-English, and written to be read.
 
 ---
 
 **Effective Date:** January 1, 2025
 
-Welcome to **Five Minutes Tech (5min.tech)**. By using this website, you agree to the terms below. If something here doesn't work for you, the contact information is at the bottom.
+Welcome to **Five Minutes Tech**. By using this website, you agree to the terms below. If something here doesn't work for you, the contact information is at the bottom.
 
 ### 1. Use of Content
 

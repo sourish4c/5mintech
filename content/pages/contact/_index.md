@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Contact Five Minutes Tech (5min.tech) for questions, collaborations, or feedback"
+description: "Contact Five Minutes Tech for questions, collaborations, or feedback"
 date: 2025-01-01
 draft: false
 unsafe: true
@@ -32,11 +32,11 @@ Thanks for reaching out. Talk soon. 🚀
       <input
         type="hidden"
         name="subject"
-        value="New Submission from 5min.tech"/>
+        value="New Submission from 5 Minutes Tech"/>
       <input
         type="hidden"
         name="redirect"
-        value="https://5min.tech/pages/contact/thank-you/"/>
+        value="https://blog.sourish4c.com/pages/contact/thank-you/"/>
       <input type="checkbox" name="botcheck" id="" style="display: none;" />
       <div class="mb-5">
         <label

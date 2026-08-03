@@ -1,11 +1,11 @@
 ---
 title: "Privacy Policy"
-description: "Privacy Policy for Five Minutes Tech (5min.tech)"
+description: "Privacy Policy for Five Minutes Tech"
 date: 2025-01-01
 draft: false
 ---
 
-How Five Minutes Tech (5min.tech) handles your data — what I collect, what I don't, and how to reach me about it.
+How Five Minutes Tech handles your data — what I collect, what I don't, and how to reach me about it.
 
 ---
 

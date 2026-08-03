@@ -119,7 +119,7 @@ Find me at:
 - GitHub: [sourish4c](https://github.com/sourish4c)
 - LinkedIn: [Sourish Bhattacharya](https://www.linkedin.com/in/sourish-barri)
 - Email: [blog@sourish4c.com](mailto:blog@sourish4c.com)
-- Contact form: [5min.tech/pages/contact/](https://blog.sourish4c.com/pages/contact/)
+- Contact form: [blog.sourish4c.com/pages/contact/](https://blog.sourish4c.com/pages/contact/)
 
 Full bio on [the about page](https://blog.sourish4c.com/pages/about/).
 
