@@ -12,7 +12,7 @@ title = "5 Minutes Tech >> Learn In Just 5 Minutes"
   #logo = "img/blowfish_logo_transparent.png"
   logo = "images/logo-bg.png"
   # secondaryLogo = "img/logo11.png"
-  description = "Learn In Just Five Minutes (5min.tech)"
+  description = "Practical, no-fluff tech tutorials you can finish during a coffee break."
   copyright = "© { year } 5 Minutes Tech. All rights reserved."
 
 [params.author]

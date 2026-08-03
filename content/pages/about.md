@@ -2,12 +2,12 @@
 title: "About"
 date: 2025-01-01
 authorbox: false
-description: Learn more about Five Minutes Tech (5min.tech) – your go-to destination for quick, practical tech tutorials designed to be read in under 5 minutes.
+description: Learn more about Five Minutes Tech – your go-to destination for quick, practical tech tutorials designed to be read in under 5 minutes.
 ---
 
 Practical, no-fluff tech tutorials you can finish during a coffee break.
 
-### Welcome to Five Minutes Tech (5min.tech)
+### Welcome to Five Minutes Tech
 
 We believe learning doesn’t have to be overwhelming or time-consuming. That’s why every tutorial here is designed to be read in under 5 minutes, giving you just the essentials you need to learn, build, and apply.
 

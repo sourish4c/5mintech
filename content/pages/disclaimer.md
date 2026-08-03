@@ -1,6 +1,6 @@
 ---
 title: "Disclaimer"
-description: "Disclaimer for Five Minutes Tech (5min.tech)"
+description: "Disclaimer for Five Minutes Tech"
 date: 2025-01-01
 draft: false
 ---
@@ -9,7 +9,7 @@ A quick read on what this site covers, what it doesn't, and where the limits are
 
 ---
 
-All content provided on **Five Minutes Tech (5min.tech)** is for **educational purposes only**. While I aim to keep the information accurate and up to date, I do not guarantee completeness or reliability.
+All content provided on **Five Minutes Tech** is for **educational purposes only**. While I aim to keep the information accurate and up to date, I do not guarantee completeness or reliability.
 
 Any actions you take upon the information on this website are strictly at your own risk. I will not be liable for any losses or damages resulting from the use of my tutorials, code snippets, or guides — including but not limited to data loss, downtime, misconfigured cloud resources, or unexpected billing.
 
